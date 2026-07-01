@@ -179,7 +179,7 @@ textarea {
 
 @media (max-width: 1000px) {
     body {
-        height: 130vh;
+        height: 121vh;
     }
     textarea {
         width: 53vw;
@@ -188,7 +188,7 @@ textarea {
 
 @media (max-width: 480px) {
     body {
-        height: 130vh;
+        height: 119vh;
     }
     .container {
         width: 95vw;
