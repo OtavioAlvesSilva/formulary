@@ -29,7 +29,7 @@ body {
     margin: 20px auto;  
     height: auto;                 
     width: 100%;
-    max-width: 600px; 
+    max-width: 800px; 
     border-radius: 6px;
     background-color: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.153);
@@ -106,7 +106,7 @@ input,
 select,
 textarea {
     width: 100%;
-    font-size: 16px;
+    font-size: 16px; 
 }
 
 input {
@@ -204,10 +204,56 @@ textarea {
     color: #000;
 }
 
-
 @media (min-width: 1080px) {
     .container {
-        max-width: 640px;
+        width: 92vw;
+        margin: 20px auto;
+    }
+
+    .formulario {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .circulo_imagem_envelope {
+        height: 96px;
+        width: 96px;
+        margin-top: 32px;
+    }
+
+    .envelope_imagem img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .tittle h1 {
+        font-size: 28px;
+    }
+
+    .subtittle {
+        max-width: 380px;
+    }
+
+    .subtittle p {
+        font-size: 17px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    input,
+    select {
+        height: 42px;
+    }
+
+    textarea {
+        height: 90px;
+    }
+
+    .button_envio {
+        height: 46px;
+        font-size: 16px;
     }
 }
 
