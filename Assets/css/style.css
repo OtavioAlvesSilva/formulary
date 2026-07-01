@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0px;
     padding: 0px;
-    height: 100%;
     background-color: #F3F3F5;
 }
 
@@ -12,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 148vh;
+    min-height: 100vh;
 }
 
 
@@ -21,9 +26,10 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-height: 138vh;
-    margin: 0 auto;
-    width: 60vw;
+    margin: 20px auto;  
+    height: auto;                 
+    width: 100%;
+    max-width: 600px; 
     border-radius: 6px;
     background-color: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.153);
@@ -33,6 +39,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .circulo_imagem_envelope {
@@ -58,23 +65,27 @@ form {
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .subtittle {
     max-width: 300px;
     margin-top: 0px;
+    padding: 0 12px;
 }
 
 .subtittle p {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
     color: #353535;
 }
 
 .formulario {
-    align-self: flex-start;
-    margin-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-top: 10px;
 }
 
@@ -87,8 +98,15 @@ form {
 label {
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 7px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    font-size: 16px;
 }
 
 input {
@@ -111,12 +129,13 @@ input {
 }
 
 .checkbox input[type="checkbox"] {
+    width: auto;
     accent-color: #5639de;
 }
 
 .termos_email {
     font-family: "Roboto", sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 0px;
 }
 
@@ -130,7 +149,8 @@ select {
 .opcoes_radio_body {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 20px 30px;
 }
 
 .opcoes_radio {
@@ -138,6 +158,10 @@ select {
     justify-content: center;
     align-items: center;
     gap: 3px;
+}
+
+.opcoes_radio input {
+    width: auto;
 }
 
 .opcoes_radio label {
@@ -149,7 +173,6 @@ select {
 textarea {
     font-family: Arial, Helvetica, sans-serif;
     resize: none;
-    width: 56vw;
     height: 60px;
     padding-top: 10px;
     padding-left: 10px;
@@ -158,43 +181,62 @@ textarea {
 }
 
 .button_envio {
+    width: 100%;
     height: 38px;
     border: none;
     border-radius: 5px;
     background-color: #5639DE;
     color: #FFF;
+    cursor: pointer;
 }
 
 .desenvolvedor p {
     margin-top: 10px;
     margin-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #353535;
+    text-align: center;
+    padding: 0 12px;
 }
 
 .desenvolvedor a {
     color: #000;
 }
 
-@media (max-width: 1000px) {
-    body {
-        height: 121vh;
+
+@media (min-width: 1080px) {
+    .container {
+        max-width: 640px;
     }
-    textarea {
-        width: 53vw;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 92vw;
+        margin: 20px auto;
+    }
+
+    .opcoes_radio_body {
+        gap: 14px 24px;
     }
 }
 
 @media (max-width: 480px) {
     body {
-        height: 119vh;
+        align-items: flex-start;
+        padding: 20px 0;
     }
+
     .container {
         width: 95vw;
     }
 
-    textarea {
-        width: 83vw;
+    .tittle h1 {
+        font-size: 20px;
+    }
+
+    .opcoes_radio_body {
+        gap: 10px 20px;
     }
 }
