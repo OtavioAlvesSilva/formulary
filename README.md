@@ -2,7 +2,7 @@
 
 > A clean and responsive contact form built with HTML and CSS.
 
-🌐 **Live Demo:** [View Project](https://otavioalvessilva.github.io/contact-form)
+🌐 **Live Demo:** [View Project](https://otavioalvessilva.github.io/formulary.github.io/)
 
 ---
 
@@ -45,7 +45,7 @@ The project demonstrates:
 ## 📂 Project Structure
 
 ```
-contact-form/
+formulary.github.io/
 ├── index.html              # Main HTML file
 ├── README.md               # This file
 └── Assets/
@@ -96,8 +96,7 @@ The form was built with all devices in mind:
 
 ## 🔗 Links
 
-- **Live Demo:** [https://otavioalvessilva.github.io/contact-form](https://otavioalvessilva.github.io/contact-form)
-- **Repository:** [https://github.com/OtavioAlvesSilva/contact-form](https://github.com/OtavioAlvesSilva/contact-form)
+- **Repository:** [https://github.com/OtavioAlvesSilva/formulary.github.io](https://github.com/OtavioAlvesSilva/formulary.github.io)
 - **My GitHub:** [https://github.com/OtavioAlvesSilva](https://github.com/OtavioAlvesSilva)
 
 ---
