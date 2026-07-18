@@ -114,6 +114,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-*Created with dedication for front-end study purposes.*
+*Created with dedication for study purposes.*
 
 © 2026 Otavio Alves - All rights reserved.
