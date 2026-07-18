@@ -93,24 +93,11 @@ The form was built with all devices in mind:
 
 ---
 
-## 🔗 Links
-
-- **Repository:** [https://github.com/OtavioAlvesSilva/formulary](https://github.com/OtavioAlvesSilva/formulary)
-- **My GitHub:** [https://github.com/OtavioAlvesSilva](https://github.com/OtavioAlvesSilva)
-
----
-
 ## 👨‍💻 Developed by
 
 **Otavio Alves**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OtavioAlvesSilva)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
